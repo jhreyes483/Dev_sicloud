@@ -1,0 +1,149 @@
+/*FONDO DE LA PAGINA*/
+body {
+	background: #DADADA;
+	background-attachment: fixed;	
+	color: white;
+	font-family: Arial, Verdana;
+	margin:0;
+}
+
+/*CABECERA*/
+
+.cabecera{
+	background-color: #757575;
+	height: 25px;
+}
+
+
+.iconphone{
+	position: relative;
+	float: left;
+	left: 2%;
+	width: 20px;
+	top: 8%;
+}
+
+.telefonofax{
+	position: relative;
+	float: left;
+	left: 2.5%;
+	top: 15%;
+	font-size: 14px;
+}
+
+.iconmail{
+	position: relative;
+	float: right;
+	right: 18.5%;
+	width: 16px;
+	top: 4px;
+}
+
+
+.mail{
+	position: relative;
+	float: right;
+	right: 1.5%;
+	top: 3px;
+	font-size: 14px;
+}
+
+
+/*MENU NAVEGACION*/
+
+.contenedormenu{
+	background-color: #000000;
+	position: relative;
+	bottom: 16px;
+	height: 70px;
+}
+
+.logoprincipal{
+	position: relative;
+	right: 13px;
+	float: left;
+	width: 200px;
+}
+
+.menu{
+	list-style: none;
+	position: relative;
+	top: 10%;
+}
+
+.menu li{
+	display: inline-block;
+	position: relative;
+	float: left;
+	left: 4%;
+	border-right: 1px solid #FFF;
+	bottom: 7px;
+}
+
+.botones {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 26px 53px;
+}
+
+.botones:hover {
+	background: #222222;
+
+}
+
+/*CONTENEDORES*/
+
+.contenedorslide{
+	width: 1000px;
+	height: 700px;
+	overflow: hidden;
+	position: relative;
+	left: 10%;
+
+}
+
+.contenedorlistslide{
+	position: absolute;
+	animation-name: slide;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+.listslide{
+	display: table-cell;
+}
+
+.imgslide{
+	width: 1000px;
+	height: 500px;
+
+}
+
+@keyframes slide{
+    0%{
+        left: 0;
+    }   
+    25%{
+        left: -1000px;
+    }
+    50%{ 
+        left: -2000px;
+    }
+    75%{
+        left: -1000px;
+    }
+    100%{
+        left: 0px;
+    }
+    
+}
+
+/*SUB CONTENEDORES*/
+
+
+
+
+/*PIE DE PAGINA*/
+
+
